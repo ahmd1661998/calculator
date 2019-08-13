@@ -1,0 +1,89 @@
+/*=================== body ===================*/
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background:#DDD url("../images/cover.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.body_calculator {
+    display: flex;
+    background-color: #3A4654;
+    color: #FFF;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.body_calculator .calc {width: 50%;}
+
+.body_calculator .calc .output {height: 90px;}
+
+.body_calculator .calc .btn_Nummbers .btn_Nummber {
+    width: 80px;
+    height: 65px;
+    margin-left: -3px;
+    margin-bottom: 1px;
+    border: none;
+    background-color: #2c3e50;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.body_calculator .calc .btn_Nummbers .btn_Nummber:hover {background-color: #536171;cursor: pointer;}
+
+.body_calculator .calc .btn_Nummbers .btn_Nummber p:first-child {margin-top: 17.5px;}
+
+.body_calculator .calc .btn_Nummbers .btn_Nummber p:last-child {margin-top: -45px;}
+
+.body_calculator .calc .btn_Nummbers .spci {width: 160px;}
+
+.body_calculator .history {float: left;width: 50%;}
+
+.body_calculator .history h4 {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #FFF;
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    body {
+        background: transparent;
+        background-color: #2F4F4F;
+    }
+
+    .body_calculator {
+        width: 342px;
+    }
+
+    .body_calculator .calc {width: auto}
+
+    .body_calculator .history {display: none;}
+}
+
+@media (min-width: 768px) {
+    body {
+        background: transparent;
+        background-color: #2F4F4F;
+    }
+
+    .body_calculator {
+        width: 342px;
+    }
+
+    .body_calculator .calc {width: auto}
+
+    .body_calculator .history {display: none;}
+}
