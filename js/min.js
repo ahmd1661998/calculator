@@ -25,14 +25,16 @@ const btnSeven = document.querySelector('.btn7');
 const btnEight = document.querySelector('.btn8');
 const btnNine = document.querySelector('.btn9');
 
-
+let vlaue = '0';
 
 /*=================== All Functions ===================*/
 
 // function clearAll
 
 //dispaly Vlaue
-
+function displayValue() {
+    resultAll.innerText = vlaue;
+}
 
 // Clear allScreen
 btnC.addEventListener('click', () => {
