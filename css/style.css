@@ -28,7 +28,7 @@ body {
 
 .body_calculator .calc .output {height: 90px;}
 
-.body_calculator .calc .btn_Nummbers .btn_Nummber {
+.body_calculator .calc .btn_Nummbers button {
     width: 80px;
     height: 65px;
     margin-left: -3px;
@@ -39,11 +39,7 @@ body {
     font-size: 25px;
 }
 
-.body_calculator .calc .btn_Nummbers .btn_Nummber:hover {background-color: #536171;cursor: pointer;}
-
-.body_calculator .calc .btn_Nummbers .btn_Nummber p:first-child {margin-top: 17.5px;}
-
-.body_calculator .calc .btn_Nummbers .btn_Nummber p:last-child {margin-top: -45px;}
+.body_calculator .calc .btn_Nummbers button:hover {background-color: #536171;cursor: pointer;}
 
 .body_calculator .calc .btn_Nummbers .spci {width: 160px;}
 
